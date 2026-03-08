@@ -1,0 +1,111 @@
+ *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(27, 2, 85);
+    width: 100%;
+}
+ 
+ nav{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    list-style-type: decimal-leading-zero;
+    align-items: center;
+    color: white;
+}
+
+.resume {
+
+    border: 1px solid rgb(0, 255, 213);
+    background-color: black;
+    color: rgb(0, 255, 213);
+    padding: 6px;
+}
+
+body {
+    background-color: rgb(249, 248, 250);
+}
+
+.one {
+    color: rgb(0, 255, 213);
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: -7px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.two {
+    color: grey;
+}
+
+span {
+    color: rgb(0, 255, 213);
+}
+
+button {
+    border: 2px solid rgb(0, 255, 213);
+    background-color: rgb(27, 2, 85);
+    padding: 10px;
+    color: rgb(0, 255, 213);
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+input {
+    padding: 8px;
+}
+
+.main {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+img {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+nav {
+    align-items: center;
+}
+body{
+background-color: rgb(4, 4, 54);
+margin-left: 25px;
+
+}
+label{
+
+    color: grey;
+}
+.own{
+    color: grey;
+}
+.car{
+width: 400px;
+height: 400px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+pre{
+    color: aliceblue;
+}
